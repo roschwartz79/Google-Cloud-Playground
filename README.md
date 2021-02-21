@@ -20,3 +20,10 @@ How to push the docker image to the Google Container Registry:
 Note that I will be trying to simplify this process in the future but for now this is the way I have found to work with gradle! There
 are other ways with maven.
 
+### Jenkins Instructions (For local use)
+
+I am using the docker image of Jenkins and running it locally
+
+From the [docs](https://github.com/jenkinsci/docker/blob/master/README.md): `docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+`
+
