@@ -20,6 +20,13 @@ How to push the docker image to the Google Container Registry:
 Note that I will be trying to simplify this process in the future but for now this is the way I have found to work with gradle! There
 are other ways with maven.
 
+### Working with Kubernetes
+
+- To see the current pods and replicas that are up and running `kubectl get pods`
+- To push a new image to the cluster `kubectl set image deployment/hello-java hello-java=gcr.io/$GOOGLE_CLOUD_PROJECT/hello-java:<tag>`
+- Scale the deployment `kubectl scale deployment hello-java --replicas=0`
+- If you need to roll the deployment back `kubectl rollout undo deployment/hello-java`
+
 ### Jenkins Instructions (For local use)
 
 I am using the docker image of Jenkins and running it locally
