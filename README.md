@@ -1,6 +1,7 @@
 # Google-Cloud-Playground & Jenkins Test Repo
 
-Learning and experimenting with the Google Cloud Platform and the Google Kubernetes Engine! 
+Learning and experimenting with the Google Cloud Platform and the Google Kubernetes Engine! Also playing with a local Jenkins pipeline,
+I'd love to try and use the managed Jenkins pipelines that Google has to offer but this will be a good start.
 
 Trying to get my own Spring app out on the intersphere and experiment with the managed Kubernetes instance to see what kind
 of cool stuff I come up with!
